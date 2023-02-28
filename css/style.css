@@ -51,6 +51,7 @@ a{
     text-decoration: none;
 }
 /*badges*/
+
 .badges{
     border-radius: 20px;
     padding: 0.5rem 2rem;
@@ -62,7 +63,24 @@ a{
 }
 .badges-secondary{
     background-color: var(--color-secondary);
+}     
+/*LISTS*/
+.list{
+    list-style: none;
+    padding-left:0;
+    color:var(--color-heading);
 }
+.inline .list__item{
+    display:inline-block;
+    margin-right: 2rem;
+}
+.list--tick{
+
+    list-style-image: url(/images/tick.svg);
+    padding-left: 3rem;
+}
+
+
 @media screen and (min-width:1024px) {
     h1{
         font-size: 8rem;
