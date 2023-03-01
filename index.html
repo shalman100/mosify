@@ -12,17 +12,36 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<blockquote class="qoute"><P class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit doloremque iure cum quidem? Accusantium modi neque assumenda nemo, tempora repellendus corrupti, aut fugiat quae natus iusto velit beatae dolorum consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quam repudiandae sed unde deleniti cumque quisquam tenetur commodi corporis ducimus!</P>
-    <div class="media">
-    <div class="media__image">
-        <svg class="icon icon--primary qoute__line">
-         <use xlink:href="images/sprite.svg#line"></use></svg>
-    </div>
-    <div class="media__body">
-        <h3 class="media__title qoute__author">shalmaan </h3>
-    <P class="qoute__organization">abc company</P>
-    </div>
-    </div>
-</blockquote>
+    <div class="card testimonial">
+        <div class="grid grid--1x2">
+          <div class="testimonial__image">
+            <img src="images/testimonial.jpg" alt="A happy, smiling customer" />
+            <span class="icon-container icon-container--accent">
+              <svg class="icon icon--white icon--small">
+                <use xlink:href="images/sprite.svg#quotes"></use>
+              </svg>
+            </span>
+          </div>
+          <blockquote class="quote">
+            <p class="quote__text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio
+              officiis dolore earum error eaque perferendis laudantium sed praesentium
+              dolorum.
+            </p>
+            <footer>
+              <div class="media">
+                <div class="media__image">
+                  <svg class="icon icon--primary quote__line">
+                    <use xlink:href="images/sprite.svg#line"></use>
+                  </svg>
+                </div>
+                <div class="media__body">
+                  <h3 class="media__title quote__author">John Smith</h3>
+                  <p class="quote__organization">ABC Company</p>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+</div>
 </body>
 </html>  

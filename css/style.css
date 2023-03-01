@@ -260,6 +260,29 @@ a{
     position:relative;
     bottom:8px;
 }
+/*grid*/
+.grid{
+    display: grid;
+}
+.grid--1x2{
+    grid-template-columns: 1fr 1fr;
+    
+}
+/*testimonials*/
+.testimonial{
+padding: 3rem;
+}
+.testimonial__image>img{
+    width:100%
+}
+.testimonial__image{
+    position: relative;
+}
+.testimonial__image .icon-container{
+    position: absolute;
+    top: 3rem;;
+    right:-15px
+}
 /*
 @media screen and (min-width:1024px) {
     h1{
