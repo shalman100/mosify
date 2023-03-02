@@ -648,6 +648,7 @@ a {
   .container {
     max-width: 1140px;
     margin: 0 auto;
+    position: relative;
   }
 /*navigation*/
   .nav {
@@ -873,4 +874,11 @@ a {
   .footer__heading {
     font-size: 1.6rem;
   }
+}
+/*call-out*/
+.callout{
+  transform: translateY(5rem);
+}
+.callout--primary{
+  background: var(--color-primary);
 }
